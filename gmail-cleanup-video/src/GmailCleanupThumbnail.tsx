@@ -21,9 +21,9 @@ export const GmailCleanupThumbnail = () => {
       <div style={{padding: '12px 20px', borderRadius: 999, border: `1px solid ${colors.amber}`, background: '#352a1b', color: colors.amber, fontSize: 22, fontWeight: 700}}>NO AUTO DELETE</div>
     </div>
 
-    <div style={{position: 'absolute', right: 58, bottom: 0, width: 470, height: 720, overflow: 'hidden'}}>
-      <div style={{position: 'absolute', inset: '42px 10px 0 40px', borderRadius: 34, background: 'linear-gradient(180deg, #25384f, #101d2c)', boxShadow: '0 24px 80px #0008'}}/>
-      <Img src={staticFile('thumbnail-portrait.jpg')} style={{position: 'absolute', right: -8, bottom: -20, width: 438, height: 780, objectFit: 'cover', objectPosition: 'center top', filter: 'contrast(1.04) saturate(.96)'}}/>
+    <div style={{position: 'absolute', right: 58, top: 44, width: 470, height: 612, overflow: 'hidden'}}>
+      <div style={{position: 'absolute', inset: '16px 10px 0 40px', borderRadius: 34, background: 'linear-gradient(180deg, #25384f, #101d2c)', boxShadow: '0 24px 80px #0008'}}/>
+      <Img src={staticFile('thumbnail-portrait.jpg')} style={{position: 'absolute', right: -24, top: 6, width: 458, height: 660, objectFit: 'cover', objectPosition: 'center 15%', filter: 'contrast(1.04) saturate(.96)'}}/>
       <div style={{position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(9,19,32,0) 0%, rgba(9,19,32,.08) 58%, rgba(9,19,32,.4) 100%)'}}/>
     </div>
 
