@@ -1,0 +1,328 @@
+{
+  "title": "Suggest - neutral ambient instrumental",
+  "seed": "0x53554731",
+  "sampleRate": 48000,
+  "channels": 2,
+  "bitsPerSample": 24,
+  "encoding": "RIFF WAVE PCM signed 24-bit little-endian",
+  "durationSeconds": 8,
+  "frames": 384000,
+  "commonGain": 1.1782018079486718,
+  "padMidiNotes": [
+    50,
+    57,
+    64
+  ],
+  "synthesis": "Original local oscillators and seeded filtered noise; no external audio, narrator, creator voice, approval or success stings.",
+  "fadeInSeconds": 0.2,
+  "fadeOutSeconds": 0.5,
+  "fadeOutStartSeconds": 7.5,
+  "targetMixRmsDbfs": -25,
+  "maximumSamplePeakDbfs": -6,
+  "duck": {
+    "start": 1,
+    "end": 6.5,
+    "rampInStart": 0.7,
+    "rampOutEnd": 7.1,
+    "gainDb": -3,
+    "measuredMusicAttenuationDb": -2.9999999999999143,
+    "sfxDucked": false,
+    "measurement": "1-6.5s energy ratio against the identical faded bed without duck, before PCM quantization."
+  },
+  "accents": [
+    {
+      "label": "Command",
+      "timeSeconds": 0.5,
+      "onsetFrame": 24000,
+      "durationSeconds": 0.22,
+      "rmsDbfs": -48.96712134800788,
+      "samplePeakDbfs": -35.788724400051706
+    },
+    {
+      "label": "Saved plan",
+      "timeSeconds": 2.3,
+      "onsetFrame": 110400,
+      "durationSeconds": 0.26,
+      "rmsDbfs": -48.605450427110135,
+      "samplePeakDbfs": -34.1759667320011
+    },
+    {
+      "label": "Local report",
+      "timeSeconds": 4.5,
+      "onsetFrame": 216000,
+      "durationSeconds": 0.24,
+      "rmsDbfs": -48.79027622520685,
+      "samplePeakDbfs": -34.69815119307193
+    },
+    {
+      "label": "Amber badge",
+      "timeSeconds": 5.5,
+      "onsetFrame": 264000,
+      "durationSeconds": 0.28,
+      "rmsDbfs": -51.482118543620786,
+      "samplePeakDbfs": -35.572667187005464
+    }
+  ],
+  "measurement": "Decoded PCM; unweighted stereo sample RMS and sample peak, not LUFS or true peak. Full scale = 8388607; null means silence.",
+  "repeatability": "node scripts/generate-suggest-audio.mjs --verify regenerates in memory, compares every WAV and JSON byte, and decodes the on-disk WAVs; read-only. Same Node runtime/platform is the bit-identical reference.",
+  "files": {
+    "suggest-music.wav": {
+      "bytes": 2304044,
+      "frames": 384000,
+      "durationSeconds": 8,
+      "rmsDbfs": -25.00308417342605,
+      "samplePeakDbfs": -14.689882479340726,
+      "rms": 0.05621416852727938,
+      "peak": 0.1842917423596075,
+      "clippedSamples": 0,
+      "dcOffset": 2.1288484384066423e-9,
+      "endpoints": {
+        "first": [
+          0,
+          0
+        ],
+        "last": [
+          0,
+          0
+        ]
+      },
+      "sections": {
+        "0-0.2": {
+          "rmsDbfs": -26.63254605366186,
+          "samplePeakDbfs": -15.703915741543655,
+          "rms": 0.04659858157670331,
+          "peak": 0.16398503351033134,
+          "clippedSamples": 0,
+          "dcOffset": 0.0006580259814492082
+        },
+        "0.2-0.7": {
+          "rmsDbfs": -22.228618906617854,
+          "samplePeakDbfs": -14.689882479340726,
+          "rms": 0.07736936895812072,
+          "peak": 0.1842917423596075,
+          "clippedSamples": 0,
+          "dcOffset": -0.00037968454814171987
+        },
+        "0.7-1": {
+          "rmsDbfs": -23.643320000766835,
+          "samplePeakDbfs": -14.79366652187558,
+          "rms": 0.06574065093528621,
+          "peak": 0.1821028211239363,
+          "clippedSamples": 0,
+          "dcOffset": 0.000028939147100855885
+        },
+        "1-6.5": {
+          "rmsDbfs": -25.518721687599072,
+          "samplePeakDbfs": -17.738545050658608,
+          "rms": 0.052974140080825294,
+          "peak": 0.1297396576094219,
+          "clippedSamples": 0,
+          "dcOffset": 0.000020356329496194224
+        },
+        "6.5-7.1": {
+          "rmsDbfs": -24.335463054454053,
+          "samplePeakDbfs": -15.532878808353502,
+          "rms": 0.06070533320893158,
+          "peak": 0.1672461232240347,
+          "clippedSamples": 0,
+          "dcOffset": -0.00003993083888463617
+        },
+        "7.1-7.5": {
+          "rmsDbfs": -23.00894700945031,
+          "samplePeakDbfs": -15.576082382267957,
+          "rms": 0.0707216931405343,
+          "peak": 0.16641630726054993,
+          "clippedSamples": 0,
+          "dcOffset": 0.0001755988838244157
+        },
+        "7.5-8": {
+          "rmsDbfs": -27.39793182329813,
+          "samplePeakDbfs": -16.252036543868613,
+          "rms": 0.042668110273848835,
+          "peak": 0.15395655083138357,
+          "clippedSamples": 0,
+          "dcOffset": -0.00021733699597957114
+        }
+      },
+      "sha256": "33ef79be1a46b5c91253e610767fe860d7abcedccb787be51dbefeca6a7313f4"
+    },
+    "suggest-sfx.wav": {
+      "bytes": 2304044,
+      "frames": 384000,
+      "durationSeconds": 8,
+      "rmsDbfs": -58.41015335821175,
+      "samplePeakDbfs": -34.1759667320011,
+      "rms": 0.0012008598704256728,
+      "peak": 0.019552471584376285,
+      "clippedSamples": 0,
+      "dcOffset": 2.966068728196989e-7,
+      "endpoints": {
+        "first": [
+          0,
+          0
+        ],
+        "last": [
+          0,
+          0
+        ]
+      },
+      "sections": {
+        "0-0.2": {
+          "rmsDbfs": null,
+          "samplePeakDbfs": null,
+          "rms": 0,
+          "peak": 0,
+          "clippedSamples": 0,
+          "dcOffset": 0
+        },
+        "0.2-0.7": {
+          "rmsDbfs": -52.53273725948442,
+          "samplePeakDbfs": -35.788724400051706,
+          "rms": 0.00236245278166465,
+          "peak": 0.01623916819562533,
+          "clippedSamples": 0,
+          "dcOffset": -0.0000017000413974175304
+        },
+        "0.7-1": {
+          "rmsDbfs": -95.14850198387299,
+          "samplePeakDbfs": -69.81120661838284,
+          "rms": 0.000017481347293166235,
+          "peak": 0.0003231764224977997,
+          "clippedSamples": 0,
+          "dcOffset": 6.537512724103105e-7
+        },
+        "1-6.5": {
+          "rmsDbfs": -57.985615501361295,
+          "samplePeakDbfs": -34.1759667320011,
+          "rms": 0.0012610120160296645,
+          "peak": 0.019552471584376285,
+          "clippedSamples": 0,
+          "dcOffset": 5.503182362805964e-7
+        },
+        "6.5-7.1": {
+          "rmsDbfs": null,
+          "samplePeakDbfs": null,
+          "rms": 0,
+          "peak": 0,
+          "clippedSamples": 0,
+          "dcOffset": 0
+        },
+        "7.1-7.5": {
+          "rmsDbfs": null,
+          "samplePeakDbfs": null,
+          "rms": 0,
+          "peak": 0,
+          "clippedSamples": 0,
+          "dcOffset": 0
+        },
+        "7.5-8": {
+          "rmsDbfs": null,
+          "samplePeakDbfs": null,
+          "rms": 0,
+          "peak": 0,
+          "clippedSamples": 0,
+          "dcOffset": 0
+        }
+      },
+      "sha256": "676eb1ac1f7b6f00328a89ac4334ed53f1fb4fe1e9c45cc078aa44ec5dafbaca"
+    },
+    "suggest-mix.wav": {
+      "bytes": 2304044,
+      "frames": 384000,
+      "durationSeconds": 8,
+      "rmsDbfs": -24.999999995445513,
+      "samplePeakDbfs": -14.588923155678724,
+      "rms": 0.05623413254852152,
+      "peak": 0.18644633131579533,
+      "clippedSamples": 0,
+      "dcOffset": 2.9873572125834063e-7,
+      "endpoints": {
+        "first": [
+          0,
+          0
+        ],
+        "last": [
+          0,
+          0
+        ]
+      },
+      "sections": {
+        "0-0.2": {
+          "rmsDbfs": -26.63254605366186,
+          "samplePeakDbfs": -15.703915741543655,
+          "rms": 0.04659858157670331,
+          "peak": 0.16398503351033134,
+          "clippedSamples": 0,
+          "dcOffset": 0.0006580259814492082
+        },
+        "0.2-0.7": {
+          "rmsDbfs": -22.221053750503536,
+          "samplePeakDbfs": -14.588923155678724,
+          "rms": 0.07743678477245837,
+          "peak": 0.18644633131579533,
+          "clippedSamples": 0,
+          "dcOffset": -0.0003813845895391376
+        },
+        "0.7-1": {
+          "rmsDbfs": -23.64334532159424,
+          "samplePeakDbfs": -14.794547898477363,
+          "rms": 0.06574045929052455,
+          "peak": 0.18208434368185325,
+          "clippedSamples": 0,
+          "dcOffset": 0.00002959289837326615
+        },
+        "1-6.5": {
+          "rmsDbfs": -25.51513592598274,
+          "samplePeakDbfs": -17.316368699309162,
+          "rms": 0.052996013701165044,
+          "peak": 0.1362013979198215,
+          "clippedSamples": 0,
+          "dcOffset": 0.000020906647732474502
+        },
+        "6.5-7.1": {
+          "rmsDbfs": -24.335463054454053,
+          "samplePeakDbfs": -15.532878808353502,
+          "rms": 0.06070533320893158,
+          "peak": 0.1672461232240347,
+          "clippedSamples": 0,
+          "dcOffset": -0.00003993083888463617
+        },
+        "7.1-7.5": {
+          "rmsDbfs": -23.00894700945031,
+          "samplePeakDbfs": -15.576082382267957,
+          "rms": 0.0707216931405343,
+          "peak": 0.16641630726054993,
+          "clippedSamples": 0,
+          "dcOffset": 0.0001755988838244157
+        },
+        "7.5-8": {
+          "rmsDbfs": -27.39793182329813,
+          "samplePeakDbfs": -16.252036543868613,
+          "rms": 0.042668110273848835,
+          "peak": 0.15395655083138357,
+          "clippedSamples": 0,
+          "dcOffset": -0.00021733699597957114
+        }
+      },
+      "sha256": "93028f48d8209923fa7dbc4e1e3c3c8d585118124f697a9b9fd48d145a776149"
+    }
+  },
+  "checks": {
+    "exactDurationAndFormat": true,
+    "exactStemSum": true,
+    "stemSumResidualPcm": 0,
+    "interleavedSamplesCompared": 768000,
+    "zeroEndpoints": true,
+    "noClipping": true,
+    "fourScheduledAccentsOnly": true,
+    "musicDuck3Db": true,
+    "mixRmsTarget": true,
+    "allSamplePeaksBelowMinus6": true,
+    "continuity": {
+      "windowSeconds": 0.1,
+      "start": 0.2,
+      "end": 7.5,
+      "minimumWindowRmsDbfs": -26.010328957229284
+    }
+  }
+}

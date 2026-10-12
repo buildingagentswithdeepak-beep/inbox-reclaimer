@@ -1,0 +1,27 @@
+{
+  "fixture": "synthetic",
+  "live_gmail_access": false,
+  "cli_exit_code": 0,
+  "coverage": {
+    "complete": false,
+    "started_at": "2026-09-27T11:37:16.724131+00:00",
+    "completed_at": "2026-09-27T11:37:16.724131+00:00",
+    "cursor": null,
+    "unresolved_count": 0,
+    "unique_messages": 10,
+    "duplicate_records": 0,
+    "cutoff": "2026-09-01T12:00:00+00:00",
+    "timezone": "UTC",
+    "scope": "limited_preview",
+    "message_limit": 10,
+    "selected_count": 10,
+    "enumeration_exhausted": false,
+    "persisted": false,
+    "ordering": "gmail_list_order_not_guaranteed_newest"
+  },
+  "messages": 10,
+  "full_cache": null,
+  "token_created": false,
+  "html_path": "C:\\Users\\v-deegarg\\inbox-reclaimer\\docs\\evidence\\report-limited-synthetic.html",
+  "entrypoint": "C:\\Users\\v-deegarg\\inbox-reclaimer\\.venv\\Scripts\\reclaim.exe"
+}

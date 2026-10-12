@@ -1,0 +1,503 @@
+{
+  "schemaVersion": 1,
+  "sourceRoot": "..",
+  "lineCoordinates": "1-based inclusive source lines; highlightRanges use the same coordinates",
+  "codeEncoding": "UTF-8, original indentation and line terminators, no inserted ellipses",
+  "timeline": {
+    "unit": "seconds",
+    "interval": "start-inclusive, end-exclusive",
+    "duration": 39,
+    "groups": [
+      {
+        "id": "read-entry",
+        "startSecond": 0,
+        "endSecond": 6,
+        "cards": [
+          {
+            "startSecond": 0,
+            "endSecond": 6,
+            "excerptIds": [
+              "cli",
+              "read-workflow"
+            ],
+            "layout": "paired"
+          }
+        ]
+      },
+      {
+        "id": "fetch-analyze-present",
+        "startSecond": 6,
+        "endSecond": 16,
+        "cards": [
+          {
+            "startSecond": 6,
+            "endSecond": 9,
+            "excerptIds": [
+              "scan"
+            ],
+            "layout": "single"
+          },
+          {
+            "startSecond": 9,
+            "endSecond": 12,
+            "excerptIds": [
+              "aggregation"
+            ],
+            "layout": "single"
+          },
+          {
+            "startSecond": 12,
+            "endSecond": 16,
+            "excerptIds": [
+              "render"
+            ],
+            "layout": "single"
+          }
+        ]
+      },
+      {
+        "id": "select-approve",
+        "startSecond": 16,
+        "endSecond": 26,
+        "cards": [
+          {
+            "startSecond": 16,
+            "endSecond": 19,
+            "excerptIds": [
+              "selection"
+            ],
+            "layout": "single"
+          },
+          {
+            "startSecond": 19,
+            "endSecond": 22,
+            "excerptIds": [
+              "decision"
+            ],
+            "layout": "single"
+          },
+          {
+            "startSecond": 22,
+            "endSecond": 26,
+            "excerptIds": [
+              "writer"
+            ],
+            "layout": "single"
+          }
+        ]
+      },
+      {
+        "id": "pause-check-dispatch",
+        "startSecond": 26,
+        "endSecond": 32,
+        "cards": [
+          {
+            "startSecond": 26,
+            "endSecond": 29,
+            "excerptIds": [
+              "pause",
+              "checks"
+            ],
+            "layout": "paired"
+          },
+          {
+            "startSecond": 29,
+            "endSecond": 32,
+            "excerptIds": [
+              "intent",
+              "effect"
+            ],
+            "layout": "paired"
+          }
+        ]
+      },
+      {
+        "id": "journal-provider",
+        "startSecond": 32,
+        "endSecond": 39,
+        "cards": [
+          {
+            "startSecond": 32,
+            "endSecond": 36,
+            "excerptIds": [
+              "journal-intent",
+              "outcome"
+            ],
+            "layout": "paired"
+          },
+          {
+            "startSecond": 36,
+            "endSecond": 39,
+            "excerptIds": [
+              "transport"
+            ],
+            "layout": "single"
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "file": "src/inbox_reclaimer/cli.py",
+      "sourceSha256": "37896779bdfaffc059b5eef3ac30a0e57bccc4019ccebc563b0f588151cc63ac",
+      "byteLength": 22292
+    },
+    {
+      "file": "src/inbox_reclaimer/workflow.py",
+      "sourceSha256": "7b7a040a51bdf903d677215a68e0bf3e358fe8ca5618894518508497e413f56c",
+      "byteLength": 3097
+    },
+    {
+      "file": "src/inbox_reclaimer/sync.py",
+      "sourceSha256": "c80cc559d4f6fa63dd37cc3dd8d2bcc63c328f484126e40dcb305f2c1a5ef648",
+      "byteLength": 12040
+    },
+    {
+      "file": "src/inbox_reclaimer/analytics.py",
+      "sourceSha256": "c58e933b9efdc79c177c0efc005dec3e823a7c52006db393c9f816489dfb49d9",
+      "byteLength": 11428
+    },
+    {
+      "file": "src/inbox_reclaimer/render.py",
+      "sourceSha256": "18d89b2caacfb61a0cb13092cebe8b0fd39ba3e6296c382e4eb49947234aa738",
+      "byteLength": 17545
+    },
+    {
+      "file": "src/inbox_reclaimer/sender/selection.py",
+      "sourceSha256": "cb2fe4d063bffd4c5e8c8e46fae7237a79484c1b61a8065028a7369c34f0ea57",
+      "byteLength": 4902
+    },
+    {
+      "file": "src/inbox_reclaimer/sender/commands.py",
+      "sourceSha256": "59b16b8abc3fb8f9ba6c84d1aaeaa6381ec52b97dcaf0304cf76a698911c29b8",
+      "byteLength": 13806
+    },
+    {
+      "file": "src/inbox_reclaimer/sender/workflow.py",
+      "sourceSha256": "d5c8bc1fb77f8f8238bc245438c0dff153766baeb4ffd1513714be769ce4d345",
+      "byteLength": 12298
+    },
+    {
+      "file": "src/inbox_reclaimer/sender/executor.py",
+      "sourceSha256": "ad05610e36ff1845a2733a8b75a887d09e6dcb0fbf03928c6aaaaa5091cd00e6",
+      "byteLength": 12960
+    },
+    {
+      "file": "src/inbox_reclaimer/sender/journal.py",
+      "sourceSha256": "f2fbcd9095d733f0b571facde7db5880f17ce82db4f3ce49b8e642ab2de44b2e",
+      "byteLength": 47495
+    },
+    {
+      "file": "src/inbox_reclaimer/sender/gmail.py",
+      "sourceSha256": "f92f9c848b8b8967b0e9cb8fd4a4b3fc301b84823cc6c6a3c43006f6a959a777",
+      "byteLength": 13697
+    }
+  ],
+  "excerpts": [
+    {
+      "id": "cli",
+      "file": "src/inbox_reclaimer/cli.py",
+      "symbol": "analyze",
+      "language": "python",
+      "startLine": 276,
+      "endLine": 277,
+      "code": "        state = run_read_workflow(paths, identity, read)\n        inventory = snapshot[\"inventory\"]\n",
+      "sourceSha256": "37896779bdfaffc059b5eef3ac30a0e57bccc4019ccebc563b0f588151cc63ac",
+      "excerptSha256": "89b9c6bdec7da69b46ad8b6b14ce202608099dd740c785353209e4c68813a90b",
+      "highlightRanges": [
+        {
+          "startLine": 276,
+          "endLine": 276
+        }
+      ],
+      "lineCount": 2,
+      "maxLineChars": 56
+    },
+    {
+      "id": "read-workflow",
+      "file": "src/inbox_reclaimer/workflow.py",
+      "symbol": "run_read_workflow",
+      "language": "python",
+      "startLine": 23,
+      "endLine": 29,
+      "code": "def run_read_workflow(\n    paths: ProfilePaths,\n    identity: Identity,\n    analyze: Callable[[], Inventory],\n    propose: Callable[[], Plan] | None = None,\n    workflow_id: str | None = None,\n) -> dict:\n",
+      "sourceSha256": "7b7a040a51bdf903d677215a68e0bf3e358fe8ca5618894518508497e413f56c",
+      "excerptSha256": "ce11f1f79907daf121ef9dec17692d9275364d620bbb9b57d1622c3d1573125f",
+      "highlightRanges": [
+        {
+          "startLine": 23,
+          "endLine": 27
+        }
+      ],
+      "lineCount": 7,
+      "maxLineChars": 46
+    },
+    {
+      "id": "scan",
+      "file": "src/inbox_reclaimer/sync.py",
+      "symbol": "SyncService.limited_scan",
+      "language": "python",
+      "startLine": 127,
+      "endLine": 133,
+      "code": "                if id in selected:\n                    continue\n                if len(selected) == max_messages:\n                    break\n                self._identity(identity)\n                selected.add(id)\n                self._fetch(id, staged, unresolved)\n",
+      "sourceSha256": "c80cc559d4f6fa63dd37cc3dd8d2bcc63c328f484126e40dcb305f2c1a5ef648",
+      "excerptSha256": "081c6e01c7c1572557f024116e992ce4cd90d1d13577a7655331708a80826c75",
+      "highlightRanges": [
+        {
+          "startLine": 129,
+          "endLine": 133
+        }
+      ],
+      "lineCount": 7,
+      "maxLineChars": 51
+    },
+    {
+      "id": "aggregation",
+      "file": "src/inbox_reclaimer/analytics.py",
+      "symbol": "build_report",
+      "language": "python",
+      "startLine": 159,
+      "endLine": 165,
+      "code": "        if sender in senders:\n            _add(senders[sender], size, unknown)\n        else:\n            senders[sender] = {\n                \"sender\": sender,\n                \"count\": 1,\n                \"estimated_bytes\": size,\n",
+      "sourceSha256": "c58e933b9efdc79c177c0efc005dec3e823a7c52006db393c9f816489dfb49d9",
+      "excerptSha256": "cd14abf45ab0e9ba411a376da749459f2f967c2cd1c173e0e20b1aedc88ae04f",
+      "highlightRanges": [
+        {
+          "startLine": 159,
+          "endLine": 160
+        },
+        {
+          "startLine": 163,
+          "endLine": 165
+        }
+      ],
+      "lineCount": 7,
+      "maxLineChars": 48
+    },
+    {
+      "id": "render",
+      "file": "src/inbox_reclaimer/render.py",
+      "symbol": "render_html",
+      "language": "python",
+      "startLine": 174,
+      "endLine": 177,
+      "code": "def render_html(report: dict) -> str:\n    \"\"\"Return standalone escaped HTML with hash-authorized packaged inline CSS.\"\"\"\n    css = files(\"inbox_reclaimer\").joinpath(\"assets/report.css\").read_text(encoding=\"utf-8\")\n    digest = base64.b64encode(hashlib.sha256(css.encode(\"utf-8\")).digest()).decode(\"ascii\")\n",
+      "sourceSha256": "18d89b2caacfb61a0cb13092cebe8b0fd39ba3e6296c382e4eb49947234aa738",
+      "excerptSha256": "57eb17f593fafc9b12bc3257d2dd244ead071f9732b23852f5dff7d16527732d",
+      "highlightRanges": [
+        {
+          "startLine": 174,
+          "endLine": 175
+        }
+      ],
+      "lineCount": 4,
+      "maxLineChars": 92
+    },
+    {
+      "id": "selection",
+      "file": "src/inbox_reclaimer/sender/selection.py",
+      "symbol": "select_sender",
+      "language": "python",
+      "startLine": 23,
+      "endLine": 26,
+      "code": "def select_sender(adapter, journal, identity, sender, max_messages=1000, redact_subjects=True):\n    sender = exact_sender(sender)\n    if type(max_messages) is not int or not 1 <= max_messages <= 1000:\n        raise ValueError(\"Sender candidate limit must be in 1..1000\")\n",
+      "sourceSha256": "cb2fe4d063bffd4c5e8c8e46fae7237a79484c1b61a8065028a7369c34f0ea57",
+      "excerptSha256": "eb5762ffb578521dd0bf02f84fda53721d7c01905f004c332745427fb3160ad9",
+      "highlightRanges": [
+        {
+          "startLine": 25,
+          "endLine": 26
+        }
+      ],
+      "lineCount": 4,
+      "maxLineChars": 95
+    },
+    {
+      "id": "decision",
+      "file": "src/inbox_reclaimer/sender/commands.py",
+      "symbol": "_perform",
+      "language": "python",
+      "startLine": 61,
+      "endLine": 68,
+      "code": "    decision = confirm_plan(plan, identity, messages, synthetic=options.demo)\n    if decision is None:\n        with journal.store.conn:\n            journal.store._event(\n                identity.account_id, \"sender_confirmation_rejected\", {\"plan_id\": plan.plan_id}\n            )\n        result = run_sender_workflow(paths, identity, journal, None, plan, decision=\"reject\")\n        return result | {\"decision\": \"rejected\", \"mail_changed\": False}\n",
+      "sourceSha256": "59b16b8abc3fb8f9ba6c84d1aaeaa6381ec52b97dcaf0304cf76a698911c29b8",
+      "excerptSha256": "b8b8968d7c14d01edda0583de422be0199ae6a53418d045eb4105aabf696ed83",
+      "highlightRanges": [
+        {
+          "startLine": 61,
+          "endLine": 62
+        },
+        {
+          "startLine": 67,
+          "endLine": 68
+        }
+      ],
+      "lineCount": 8,
+      "maxLineChars": 94
+    },
+    {
+      "id": "writer",
+      "file": "src/inbox_reclaimer/sender/commands.py",
+      "symbol": "_perform",
+      "language": "python",
+      "startLine": 69,
+      "endLine": 77,
+      "code": "    approval_id = journal.approve(plan, decision)\n    if options.demo:\n        writer = reader\n    else:\n        from .gmail import GoogleSenderWriter\n\n        writer = GoogleSenderWriter(base)\n    executor = SenderExecutor(writer, journal)\n    return run_sender_workflow(paths, identity, journal, executor, plan, approval_id)\n",
+      "sourceSha256": "59b16b8abc3fb8f9ba6c84d1aaeaa6381ec52b97dcaf0304cf76a698911c29b8",
+      "excerptSha256": "aa97fb4faadf9d4dd0ac2113e51654ad0616c3e11b14595b0d95351548af8b5f",
+      "highlightRanges": [
+        {
+          "startLine": 69,
+          "endLine": 69
+        },
+        {
+          "startLine": 75,
+          "endLine": 77
+        }
+      ],
+      "lineCount": 9,
+      "maxLineChars": 85
+    },
+    {
+      "id": "pause",
+      "file": "src/inbox_reclaimer/sender/workflow.py",
+      "symbol": "run_sender_workflow.await_approval",
+      "language": "python",
+      "startLine": 90,
+      "endLine": 94,
+      "code": "    def await_approval(state):\n        # No effects before interrupt: this node starts again on every resume.\n        response = interrupt(\n            {\"account_id\": state[\"account_id\"], \"plan_id\": state[\"plan_id\"], \"status\": \"awaiting_approval\"}\n        )\n",
+      "sourceSha256": "d5c8bc1fb77f8f8238bc245438c0dff153766baeb4ffd1513714be769ce4d345",
+      "excerptSha256": "88d05befc358f84ad8c7ca04e5cf678b646be309e83c2fcacb6050e188ece50d",
+      "highlightRanges": [
+        {
+          "startLine": 92,
+          "endLine": 94
+        }
+      ],
+      "lineCount": 5,
+      "maxLineChars": 107
+    },
+    {
+      "id": "checks",
+      "file": "src/inbox_reclaimer/sender/executor.py",
+      "symbol": "SenderExecutor._safe_read",
+      "language": "python",
+      "startLine": 101,
+      "endLine": 106,
+      "code": "        if parse_sender(current.raw_from) != plan.sender:\n            raise _Skip(\"sender_changed\")\n        if image(current) != image(message):\n            raise _Skip(\"message_changed_during_reads\")\n        self._fresh(stamp)\n        return current, stamp\n",
+      "sourceSha256": "ad05610e36ff1845a2733a8b75a887d09e6dcb0fbf03928c6aaaaa5091cd00e6",
+      "excerptSha256": "c6196b1503340e4b24795c8aa13f214bfb245ca8a3d341728540868a4b41e04f",
+      "highlightRanges": [
+        {
+          "startLine": 103,
+          "endLine": 105
+        }
+      ],
+      "lineCount": 6,
+      "maxLineChars": 57
+    },
+    {
+      "id": "intent",
+      "file": "src/inbox_reclaimer/sender/executor.py",
+      "symbol": "SenderExecutor._effect",
+      "language": "python",
+      "startLine": 125,
+      "endLine": 129,
+      "code": "    def _effect(self, plan, approval_id, message, stamp, step, call, confirms):\n        # Never catch/ignore this failure: COMMIT and audit must succeed before dispatch.\n        operation_id = self.journal.begin(plan, approval_id, message.id, step, message)\n        try:\n            self._guard(plan, approval_id, stamp)\n",
+      "sourceSha256": "ad05610e36ff1845a2733a8b75a887d09e6dcb0fbf03928c6aaaaa5091cd00e6",
+      "excerptSha256": "1fdc9b767a195d9cdaa0489886e2f98ab1b7e661c8e6168c8b0bb39a5c643ba1",
+      "highlightRanges": [
+        {
+          "startLine": 127,
+          "endLine": 129
+        }
+      ],
+      "lineCount": 5,
+      "maxLineChars": 89
+    },
+    {
+      "id": "effect",
+      "file": "src/inbox_reclaimer/sender/executor.py",
+      "symbol": "SenderExecutor._effect",
+      "language": "python",
+      "startLine": 135,
+      "endLine": 140,
+      "code": "            install_guard = getattr(self.adapter, \"set_dispatch_guard\", None)\n            if install_guard is not None:\n                install_guard(lambda: self._final_local_check(plan, approval_id, stamp))\n            else:\n                self._final_local_check(plan, approval_id, stamp)\n            response = call()\n",
+      "sourceSha256": "ad05610e36ff1845a2733a8b75a887d09e6dcb0fbf03928c6aaaaa5091cd00e6",
+      "excerptSha256": "0285a560b413c65fba81f41f0b2366c7cbd81c0c78c42ad28131e7ec3542df8d",
+      "highlightRanges": [
+        {
+          "startLine": 137,
+          "endLine": 140
+        }
+      ],
+      "lineCount": 6,
+      "maxLineChars": 88
+    },
+    {
+      "id": "journal-intent",
+      "file": "src/inbox_reclaimer/sender/journal.py",
+      "symbol": "SenderJournal.begin",
+      "language": "python",
+      "startLine": 846,
+      "endLine": 852,
+      "code": "            self.store._event(\n                plan.account_id,\n                \"sender_intent\",\n                dict(\n                    operation_id=operation_id,\n                    plan_id=plan.plan_id,\n                    message_id=message_id,\n",
+      "sourceSha256": "f2fbcd9095d733f0b571facde7db5880f17ce82db4f3ce49b8e642ab2de44b2e",
+      "excerptSha256": "4cab3163f396d973b4e784d23dcdb69607425631350a6a358975c5e872c2bb57",
+      "highlightRanges": [
+        {
+          "startLine": 848,
+          "endLine": 852
+        }
+      ],
+      "lineCount": 7,
+      "maxLineChars": 46
+    },
+    {
+      "id": "outcome",
+      "file": "src/inbox_reclaimer/sender/journal.py",
+      "symbol": "SenderJournal.finish",
+      "language": "python",
+      "startLine": 898,
+      "endLine": 902,
+      "code": "            self.store._event(\n                row[\"account_id\"],\n                \"sender_outcome\",\n                dict(operation_id=operation_id, state=state, reason=reason),\n            )\n",
+      "sourceSha256": "f2fbcd9095d733f0b571facde7db5880f17ce82db4f3ce49b8e642ab2de44b2e",
+      "excerptSha256": "5cd70beb8854bfced529568351b6f5580f80e0b17d8124df1ca8f1fa6ac92b5a",
+      "highlightRanges": [
+        {
+          "startLine": 900,
+          "endLine": 901
+        }
+      ],
+      "lineCount": 5,
+      "maxLineChars": 76
+    },
+    {
+      "id": "transport",
+      "file": "src/inbox_reclaimer/sender/gmail.py",
+      "symbol": "GoogleSenderWriter.trash_ids",
+      "language": "python",
+      "startLine": 234,
+      "endLine": 239,
+      "code": "        return self._dispatch(\n            \"trash\",\n            lambda: self.base._service.users()\n            .messages()\n            .batchModify(userId=\"me\", body={\"ids\": ids, \"addLabelIds\": [\"TRASH\"]}),\n        )\n",
+      "sourceSha256": "f92f9c848b8b8967b0e9cb8fd4a4b3fc301b84823cc6c6a3c43006f6a959a777",
+      "excerptSha256": "2ed8b85aa83bf069538f658ab5e6c9299576667412504fd198d548d7991a74d7",
+      "highlightRanges": [
+        {
+          "startLine": 238,
+          "endLine": 238
+        }
+      ],
+      "lineCount": 6,
+      "maxLineChars": 83
+    }
+  ],
+  "logo": {
+    "sourceFile": "C:/RockDeveloper/BuildingAgentsLogo.png",
+    "file": "public/building-agents-logo.png",
+    "sourceSha256": "488275a1707d040919d4f568c9fe2df289123b945981177f46e7bea0cde94746",
+    "sha256": "488275a1707d040919d4f568c9fe2df289123b945981177f46e7bea0cde94746",
+    "byteLength": 1381370
+  }
+}

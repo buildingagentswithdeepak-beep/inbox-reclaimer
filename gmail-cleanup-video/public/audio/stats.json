@@ -1,0 +1,106 @@
+{
+  "seed": "0x5245434c",
+  "sampleRate": 48000,
+  "channels": 2,
+  "bitsPerSample": 24,
+  "durationSeconds": 18,
+  "frames": 864000,
+  "bpm": 100,
+  "commonGain": 1.0675210445415102,
+  "measurement": "Decoded PCM sample peak and unweighted RMS across both channels; full-scale sine RMS is -3.01 dBFS. Not LUFS or true peak. null dBFS means digital silence.",
+  "files": {
+    "music.wav": {
+      "samplePeak": 0.40775554272598535,
+      "samplePeakDbfs": -7.792,
+      "rms": 0.07066243354469177,
+      "rmsDbfs": -23.016,
+      "dcOffset": -0.000009648348837565675,
+      "sections": {
+        "opening0to4": {
+          "samplePeak": 0.36934964291449107,
+          "samplePeakDbfs": -8.651,
+          "rms": 0.08751224251267158,
+          "rmsDbfs": -21.159,
+          "dcOffset": -0.00001801118903989253
+        },
+        "middle4to12": {
+          "samplePeak": 0,
+          "samplePeakDbfs": null,
+          "rms": 0,
+          "rmsDbfs": null,
+          "dcOffset": 0
+        },
+        "return12to18": {
+          "samplePeak": 0.40775554272598535,
+          "samplePeakDbfs": -7.792,
+          "rms": 0.09936771851885333,
+          "rmsDbfs": -20.055,
+          "dcOffset": -0.000016937587152765367
+        }
+      },
+      "sha256": "4b34aa65c15273b6ab92edef50a4c093bb39859a0b49046b998effa7a2f16974"
+    },
+    "sfx.wav": {
+      "samplePeak": 0.056258923561444706,
+      "samplePeakDbfs": -24.996,
+      "rms": 0.00433589382145884,
+      "rmsDbfs": -47.258,
+      "dcOffset": -2.1257474793119894e-8,
+      "sections": {
+        "opening0to4": {
+          "samplePeak": 0.0419898083197842,
+          "samplePeakDbfs": -27.537,
+          "rms": 0.0058788244751624644,
+          "rmsDbfs": -44.614,
+          "dcOffset": -2.698973142977828e-8
+        },
+        "middle4to12": {
+          "samplePeak": 0.056258923561444706,
+          "samplePeakDbfs": -24.996,
+          "rms": 0.003749136380040979,
+          "rmsDbfs": -48.521,
+          "dcOffset": -5.471287947451287e-8
+        },
+        "return12to18": {
+          "samplePeak": 0.03083360562725134,
+          "samplePeakDbfs": -30.22,
+          "rms": 0.003823372345395219,
+          "rmsDbfs": -48.351,
+          "dcOffset": 2.71712358731889e-8
+        }
+      },
+      "sha256": "62ba0732271866fc90a99abb9e90c36a16b4300f23fb83c9911e56efd96c89f7"
+    },
+    "mix-preview.wav": {
+      "samplePeak": 0.40775554272598535,
+      "samplePeakDbfs": -7.792,
+      "rms": 0.07079457844506688,
+      "rmsDbfs": -23,
+      "dcOffset": -0.000009669606312359137,
+      "sections": {
+        "opening0to4": {
+          "samplePeak": 0.35986260889322863,
+          "samplePeakDbfs": -8.877,
+          "rms": 0.08769669440959343,
+          "rmsDbfs": -21.14,
+          "dcOffset": -0.00001803817877132292
+        },
+        "middle4to12": {
+          "samplePeak": 0.056258923561444706,
+          "samplePeakDbfs": -24.996,
+          "rms": 0.003749136380040979,
+          "rmsDbfs": -48.521,
+          "dcOffset": -5.471287947451287e-8
+        },
+        "return12to18": {
+          "samplePeak": 0.40775554272598535,
+          "samplePeakDbfs": -7.792,
+          "rms": 0.09944714931360006,
+          "rmsDbfs": -20.048,
+          "dcOffset": -0.000016910415916892245
+        }
+      },
+      "sha256": "4e6494b756edc4d5982e78f1bd2a8727c28851666044671f056e1cf47b757154"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+# Optional: reclaim --config reclaimer.example.toml ...
+# These defaults come from spec v2, not a claim about your project's effective limits.
+[quota]
+version = "gmail-spec-v2"
+planning_per_minute = 4800
+user_per_minute = 6000
+project_per_minute = 1200000
+reserve_units = 100
+# Set lower effective limits if your project requires them.
+# effective_user_per_minute = 6000
+# effective_project_per_minute = 1200000
+# daily_budget = 1000000
+
+[quota.method_costs]
+profile = 1
+list = 5
+get = 20
+thread = 40
+history = 2
+attachments = 20
+# Accounting only: these costs do not enable the closed live mutation gate.
+trash = 50
+untrash = 5
+modify = 5
+
+[privacy]
+redact_subjects = true

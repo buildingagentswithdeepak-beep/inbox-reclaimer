@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "inbox-reclaimer"
+version = "0.1.0"
+description = "Profile-local, read-only Gmail inventory and immutable cleanup proposals (Gate A)"
+requires-python = ">=3.11"
+dependencies = [
+  "langgraph==1.2.8",
+  "langgraph-checkpoint-sqlite==3.0.3",
+  "typer==0.16.0",
+  "rich==14.0.0",
+  "google-api-python-client==2.170.0",
+  "google-auth==2.40.2",
+  "portalocker==3.2.0",
+  "tzdata==2025.2",
+  "click==8.2.1",
+]
+
+[project.scripts]
+reclaim = "inbox_reclaimer.cli:app"
+reclaim-auth = "inbox_reclaimer.authorization:main"
+
+[project.optional-dependencies]
+auth = [
+    "google-auth-oauthlib==1.2.2",
+]
+
+[dependency-groups]
+dev = ["pytest==8.4.0", "pytest-cov==6.1.1", "ruff==0.11.13"]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/inbox_reclaimer"]
+
+[tool.hatch.build.targets.sdist]
+exclude = ["docs/evidence/package.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 110

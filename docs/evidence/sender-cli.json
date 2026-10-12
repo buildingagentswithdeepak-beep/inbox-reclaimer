@@ -1,0 +1,9 @@
+{
+  "fixture": "synthetic",
+  "cli_exit": 0,
+  "examined": 30,
+  "eligible": 28,
+  "outcomes": {},
+  "live_gate_exit": 2,
+  "credentials_created": false
+}

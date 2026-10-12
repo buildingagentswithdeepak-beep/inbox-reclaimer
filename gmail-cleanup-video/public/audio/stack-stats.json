@@ -1,0 +1,275 @@
+{
+  "seed": "0x53544b31",
+  "sampleRate": 48000,
+  "channels": 2,
+  "bitsPerSample": 24,
+  "durationSeconds": 10,
+  "frames": 480000,
+  "bpm": 100,
+  "commonGain": 0.8090118013821336,
+  "fadeInSeconds": 0.2,
+  "fadeOutSeconds": 0.4,
+  "fadeOutStartSeconds": 9.6,
+  "targetMixRmsDbfs": -24,
+  "maximumSamplePeakDbfs": -6,
+  "duck": {
+    "start": 4.5,
+    "end": 7.5,
+    "rampInStart": 4.3,
+    "rampOutEnd": 7.7,
+    "gainDb": -4,
+    "measuredMusicAttenuationDb": -4.000000000000121,
+    "measuredSfxAttenuationDb": -3.9999999999999996,
+    "measurement": "4.5-7.5s energy ratio against identical faded signals without duck, before PCM quantization."
+  },
+  "accents": [
+    {
+      "label": "Stack name 1",
+      "timeSeconds": 0.15,
+      "onsetFrame": 7200,
+      "durationSeconds": 0.22,
+      "rmsDbfs": -43.64259226841413,
+      "samplePeakDbfs": -29.604062401733422
+    },
+    {
+      "label": "Stack name 2",
+      "timeSeconds": 0.75,
+      "onsetFrame": 36000,
+      "durationSeconds": 0.22,
+      "rmsDbfs": -42.674259039315466,
+      "samplePeakDbfs": -27.53697420308343
+    },
+    {
+      "label": "Stack name 3",
+      "timeSeconds": 1.35,
+      "onsetFrame": 64800,
+      "durationSeconds": 0.22,
+      "rmsDbfs": -42.34219051486224,
+      "samplePeakDbfs": -24.915984744163964
+    },
+    {
+      "label": "Stack name 4",
+      "timeSeconds": 1.95,
+      "onsetFrame": 93600,
+      "durationSeconds": 0.22,
+      "rmsDbfs": -42.93458656460119,
+      "samplePeakDbfs": -28.738388705213687
+    },
+    {
+      "label": "Dependency highlight",
+      "timeSeconds": 2.65,
+      "onsetFrame": 127200,
+      "durationSeconds": 0.34,
+      "rmsDbfs": -43.09567677152556,
+      "samplePeakDbfs": -27.348398420799953
+    },
+    {
+      "label": "No runtime LLM",
+      "timeSeconds": 4.5,
+      "onsetFrame": 216000,
+      "durationSeconds": 0.3,
+      "rmsDbfs": -48.604631263660075,
+      "samplePeakDbfs": -33.59726681704339
+    },
+    {
+      "label": "Metadata flow 1",
+      "timeSeconds": 5.3,
+      "onsetFrame": 254400,
+      "durationSeconds": 0.18,
+      "rmsDbfs": -46.7356940514188,
+      "samplePeakDbfs": -30.000623626672834
+    },
+    {
+      "label": "Metadata flow 2",
+      "timeSeconds": 5.65,
+      "onsetFrame": 271200,
+      "durationSeconds": 0.18,
+      "rmsDbfs": -47.48868110334935,
+      "samplePeakDbfs": -33.19142471388023
+    },
+    {
+      "label": "Metadata flow 3",
+      "timeSeconds": 6,
+      "onsetFrame": 288000,
+      "durationSeconds": 0.18,
+      "rmsDbfs": -46.54945513565801,
+      "samplePeakDbfs": -31.939053110476962
+    },
+    {
+      "label": "Metadata flow 4",
+      "timeSeconds": 6.35,
+      "onsetFrame": 304800,
+      "durationSeconds": 0.18,
+      "rmsDbfs": -46.87468728474077,
+      "samplePeakDbfs": -32.3360792555104
+    },
+    {
+      "label": "Workflow",
+      "timeSeconds": 8,
+      "onsetFrame": 384000,
+      "durationSeconds": 0.38,
+      "rmsDbfs": -44.18494217926914,
+      "samplePeakDbfs": -27.620151015095537
+    }
+  ],
+  "measurement": "Decoded PCM; unweighted stereo RMS and sample peak, not LUFS or true peak. Full scale = 8388607; null means silence.",
+  "repeatability": "node scripts/generate-stack-audio.mjs --verify regenerates in memory and compares every WAV and JSON byte; read-only.",
+  "files": {
+    "stack-music.wav": {
+      "bytes": 2880044,
+      "frames": 480000,
+      "durationSeconds": 10,
+      "rmsDbfs": -24.01647385315279,
+      "samplePeakDbfs": -11.08960231596885,
+      "rms": 0.06297617907407271,
+      "peak": 0.27894583689520797,
+      "clippedSamples": 0,
+      "dcOffset": -0.000010760650700605803,
+      "sections": {
+        "0-4.3": {
+          "rmsDbfs": -23.203581688935717,
+          "samplePeakDbfs": -13.010506248048195,
+          "rms": 0.06915457482632685,
+          "peak": 0.22360148711222255,
+          "clippedSamples": 0,
+          "dcOffset": -0.000004603932041445498
+        },
+        "4.5-7.5": {
+          "rmsDbfs": -26.092178367217954,
+          "samplePeakDbfs": -14.680521524774583,
+          "rms": 0.04958965440235528,
+          "peak": 0.18449046426897814,
+          "clippedSamples": 0,
+          "dcOffset": 0.000009977712347101868
+        },
+        "7.7-9.6": {
+          "rmsDbfs": -23.116023780127453,
+          "samplePeakDbfs": -11.08960231596885,
+          "rms": 0.06985521135422385,
+          "peak": 0.27894583689520797,
+          "clippedSamples": 0,
+          "dcOffset": -0.000058049473054183214
+        },
+        "9.6-10": {
+          "rmsDbfs": -25.084717067285695,
+          "samplePeakDbfs": -12.28771048283173,
+          "rms": 0.05568832388571921,
+          "peak": 0.2430045894389855,
+          "clippedSamples": 0,
+          "dcOffset": -0.00008275298146442153
+        }
+      },
+      "sha256": "523c24d7645364d04ed2d4e25650eaffc15ae7f7b3f1a352a9f5b1f10a90b3d5"
+    },
+    "stack-sfx.wav": {
+      "bytes": 2880044,
+      "frames": 480000,
+      "durationSeconds": 10,
+      "rmsDbfs": -50.20327449199124,
+      "samplePeakDbfs": -24.915984744163964,
+      "rms": 0.0030891306421584577,
+      "peak": 0.05678070268400939,
+      "clippedSamples": 0,
+      "dcOffset": -0.0000015725968417640562,
+      "sections": {
+        "0-4.3": {
+          "rmsDbfs": -48.404719997706835,
+          "samplePeakDbfs": -24.915984744163964,
+          "rms": 0.003799828537936265,
+          "peak": 0.05678070268400939,
+          "clippedSamples": 0,
+          "dcOffset": 5.171130948358595e-7
+        },
+        "4.5-7.5": {
+          "rmsDbfs": -52.01959468339183,
+          "samplePeakDbfs": -30.000623626672834,
+          "rms": 0.00250622620033914,
+          "peak": 0.031620506241381914,
+          "clippedSamples": 0,
+          "dcOffset": -0.000002574467717544355
+        },
+        "7.7-9.6": {
+          "rmsDbfs": -51.17464222262933,
+          "samplePeakDbfs": -27.620151015095537,
+          "rms": 0.0027622812078405942,
+          "peak": 0.041590337942878954,
+          "clippedSamples": 0,
+          "dcOffset": -0.000005382185038316862
+        },
+        "9.6-10": {
+          "rmsDbfs": null,
+          "samplePeakDbfs": null,
+          "rms": 0,
+          "peak": 0,
+          "clippedSamples": 0,
+          "dcOffset": 0
+        }
+      },
+      "sha256": "823e62a0f42b4054ff1e31e7b6f15e64075c2d7d424d161166eedd2b0dbdeb4c"
+    },
+    "stack-mix.wav": {
+      "bytes": 2880044,
+      "frames": 480000,
+      "durationSeconds": 10,
+      "rmsDbfs": -23.999999995635427,
+      "samplePeakDbfs": -11.08960231596885,
+      "rms": 0.06309573447972429,
+      "peak": 0.27894583689520797,
+      "clippedSamples": 0,
+      "dcOffset": -0.000012333247542368816,
+      "sections": {
+        "0-4.3": {
+          "rmsDbfs": -23.18345345114276,
+          "samplePeakDbfs": -12.478300776325042,
+          "rms": 0.06931501593937865,
+          "peak": 0.23773053142196315,
+          "clippedSamples": 0,
+          "dcOffset": -0.00000408681894660967
+        },
+        "4.5-7.5": {
+          "rmsDbfs": -26.080654331411964,
+          "samplePeakDbfs": -14.680521524774583,
+          "rms": 0.04965549132250922,
+          "peak": 0.18449046426897814,
+          "clippedSamples": 0,
+          "dcOffset": 0.000007403244629557417
+        },
+        "7.7-9.6": {
+          "rmsDbfs": -23.099382814639327,
+          "samplePeakDbfs": -11.08960231596885,
+          "rms": 0.06998917258052972,
+          "peak": 0.27894583689520797,
+          "clippedSamples": 0,
+          "dcOffset": -0.00006343165809249735
+        },
+        "9.6-10": {
+          "rmsDbfs": -25.084717067285695,
+          "samplePeakDbfs": -12.28771048283173,
+          "rms": 0.05568832388571921,
+          "peak": 0.2430045894389855,
+          "clippedSamples": 0,
+          "dcOffset": -0.00008275298146442153
+        }
+      },
+      "sha256": "cb3ecfed7c6d4339d9ac178fae44788cb8b33417662a5cf8b138d209f369fdc9"
+    }
+  },
+  "checks": {
+    "exactDurationAndFormat": true,
+    "exactStemSum": true,
+    "stemSumResidualPcm": 0,
+    "interleavedSamplesCompared": 960000,
+    "zeroEndpoints": true,
+    "noClipping": true,
+    "elevenScheduledAccentsOnly": true,
+    "duck4Db": true,
+    "mixRmsTarget": true,
+    "allSamplePeaksBelowMinus6": true,
+    "continuity": {
+      "windowSeconds": 0.1,
+      "start": 0.2,
+      "end": 9.6,
+      "minimumWindowRmsDbfs": -27.18861846904094
+    }
+  }
+}

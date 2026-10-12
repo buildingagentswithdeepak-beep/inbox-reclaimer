@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "helper": "C:\\Users\\v-deegarg\\AppData\\Local\\hermes\\hermes-agent\\skills\\productivity\\google-workspace\\scripts\\_hermes_home.py",
+  "sequence": "A -> B -> A, separate Python processes",
+  "distinct_generations": true,
+  "credentials_created_or_changed": false,
+  "fixture": "synthetic; no Google access"
+}

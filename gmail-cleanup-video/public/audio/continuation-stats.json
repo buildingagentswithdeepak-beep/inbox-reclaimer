@@ -1,0 +1,213 @@
+{
+  "title": "Continuation - restrained enterprise procedural instrumental",
+  "encoding": "RIFF WAVE PCM signed 24-bit little-endian",
+  "sampleRate": 48000,
+  "channels": 2,
+  "bitsPerSample": 24,
+  "synthesis": "Original fixed-phase local oscillators only; no recordings, downloads, packages, narration, vocals, percussion, or SFX.",
+  "padMidiNotes": [
+    50,
+    57,
+    64,
+    71
+  ],
+  "pulseMidiNote": 38,
+  "pulseBpm": 84,
+  "motifMidiNotes": [
+    69,
+    64,
+    71,
+    66,
+    64,
+    69,
+    66,
+    71
+  ],
+  "commonGain": 0.8145552415242184,
+  "bedDurationSeconds": 44,
+  "targetBedRmsDbfs": -27,
+  "maximumSamplePeakDbfs": -10,
+  "fadeInSeconds": 0.4,
+  "fadeOutSeconds": 0.8,
+  "fadeCurve": "Smoothstep; first and last stereo frames exactly zero.",
+  "mixDerivation": "Each mix starts at bed frame zero, inherits the opening fade, and applies only its own tail fade to quantized bed PCM. No per-mix normalization. Code is byte-identical to bed; no optional duck.",
+  "playback": "Use exactly one scene mix at unity gain; fades are baked in. Do not layer the bed or another mix.",
+  "measurement": "Decoded PCM unweighted stereo sample RMS and sample peak, not LUFS or true peak. Full scale = 8388607; null means silence.",
+  "repeatability": "--verify is read-only: regenerate in memory, byte-compare all WAVs and this report, decode disk PCM, and check bed derivation. Same Node runtime/platform is the bit-identical reference.",
+  "files": {
+    "continuation-bed.wav": {
+      "bytes": 12672044,
+      "frames": 2112000,
+      "durationSeconds": 44,
+      "rmsDbfs": -27.00000000002383,
+      "samplePeakDbfs": -17.39635435398613,
+      "rms": 0.04466835921497375,
+      "peak": 0.13495291888152586,
+      "dcOffset": -8.626870250337278e-10,
+      "clippedSamples": 0,
+      "endpoints": {
+        "first": [
+          0,
+          0
+        ],
+        "last": [
+          0,
+          0
+        ]
+      },
+      "fadeOutStartSeconds": 43.2,
+      "continuity": {
+        "windowSeconds": 0.1,
+        "minimumWindowRmsDbfs": -27.930522836852756
+      },
+      "sha256": "ca0ed8e60383dc2bcc20832abcc5d7082fbeb49dbaa9a7cd20a639cab5462f73"
+    },
+    "continuation-judgment-mix.wav": {
+      "bytes": 8640044,
+      "frames": 1440000,
+      "durationSeconds": 30,
+      "rmsDbfs": -27.118718061042017,
+      "samplePeakDbfs": -17.39635435398613,
+      "rms": 0.04406198892143004,
+      "peak": 0.13495291888152586,
+      "dcOffset": -8.80575946737897e-10,
+      "clippedSamples": 0,
+      "endpoints": {
+        "first": [
+          0,
+          0
+        ],
+        "last": [
+          0,
+          0
+        ]
+      },
+      "fadeOutStartSeconds": 29.2,
+      "continuity": {
+        "windowSeconds": 0.1,
+        "minimumWindowRmsDbfs": -27.930522836852756
+      },
+      "sha256": "cbe521868ee7c0983a81f2acac747da3ccf80021f4af651d035cfd848d3d3a6b"
+    },
+    "continuation-comparison-mix.wav": {
+      "bytes": 4896044,
+      "frames": 816000,
+      "durationSeconds": 17,
+      "rmsDbfs": -27.079946913487856,
+      "samplePeakDbfs": -17.39635435398613,
+      "rms": 0.04425910773871874,
+      "peak": 0.13495291888152586,
+      "dcOffset": -8.397974048217921e-10,
+      "clippedSamples": 0,
+      "endpoints": {
+        "first": [
+          0,
+          0
+        ],
+        "last": [
+          0,
+          0
+        ]
+      },
+      "fadeOutStartSeconds": 16.2,
+      "continuity": {
+        "windowSeconds": 0.1,
+        "minimumWindowRmsDbfs": -27.47620193868551
+      },
+      "sha256": "1748b9966e5454aa083b686003ff815ad423dc58ed3e12990c70f2b6cbe1ed4c"
+    },
+    "continuation-architecture-mix.wav": {
+      "bytes": 8064044,
+      "frames": 1344000,
+      "durationSeconds": 28,
+      "rmsDbfs": -27.15982304754037,
+      "samplePeakDbfs": -17.39635435398613,
+      "rms": 0.04385396317908751,
+      "peak": 0.13495291888152586,
+      "dcOffset": -7.462555628859688e-10,
+      "clippedSamples": 0,
+      "endpoints": {
+        "first": [
+          0,
+          0
+        ],
+        "last": [
+          0,
+          0
+        ]
+      },
+      "fadeOutStartSeconds": 27.2,
+      "continuity": {
+        "windowSeconds": 0.1,
+        "minimumWindowRmsDbfs": -27.930522836852756
+      },
+      "sha256": "a164df93df01db5732e710187e8f972e760a4aa1dabbe8d05f0f0e930b874d21"
+    },
+    "continuation-code-mix.wav": {
+      "bytes": 12672044,
+      "frames": 2112000,
+      "durationSeconds": 44,
+      "rmsDbfs": -27.00000000002383,
+      "samplePeakDbfs": -17.39635435398613,
+      "rms": 0.04466835921497375,
+      "peak": 0.13495291888152586,
+      "dcOffset": -8.626870250337278e-10,
+      "clippedSamples": 0,
+      "endpoints": {
+        "first": [
+          0,
+          0
+        ],
+        "last": [
+          0,
+          0
+        ]
+      },
+      "fadeOutStartSeconds": 43.2,
+      "continuity": {
+        "windowSeconds": 0.1,
+        "minimumWindowRmsDbfs": -27.930522836852756
+      },
+      "sha256": "ca0ed8e60383dc2bcc20832abcc5d7082fbeb49dbaa9a7cd20a639cab5462f73"
+    },
+    "continuation-endcard-mix.wav": {
+      "bytes": 3456044,
+      "frames": 576000,
+      "durationSeconds": 12,
+      "rmsDbfs": -27.078181774477716,
+      "samplePeakDbfs": -17.39635435398613,
+      "rms": 0.044268102950436816,
+      "peak": 0.13495291888152586,
+      "dcOffset": -7.297430633687597e-10,
+      "clippedSamples": 0,
+      "endpoints": {
+        "first": [
+          0,
+          0
+        ],
+        "last": [
+          0,
+          0
+        ]
+      },
+      "fadeOutStartSeconds": 11.2,
+      "continuity": {
+        "windowSeconds": 0.1,
+        "minimumWindowRmsDbfs": -27.357385308746984
+      },
+      "sha256": "7fd8aaf192b086895f01edf08755f2dabc9abcc21b5f6d48e21d83b067fb2838"
+    }
+  },
+  "checks": {
+    "exactDurationAndFormat": true,
+    "zeroEndpoints": true,
+    "noClipping": true,
+    "allSamplePeaksBelowMinus10": true,
+    "bedRmsWithinPoint01Db": true,
+    "mixesRmsWithinPoint5Db": true,
+    "exactSharedBedPcmDerivation": true,
+    "derivationResidualPcm": 0,
+    "codeIdenticalToBed": true,
+    "interior100msWindowsAboveMinus40": true
+  }
+}

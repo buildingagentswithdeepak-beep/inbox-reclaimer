@@ -1,0 +1,15 @@
+{
+  "fixture": "synthetic; 1000 senders; unique messages and threads; no live API",
+  "messages": 100000,
+  "platform": "Windows-10-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "python": "3.11.9",
+  "cache_load_seconds": 2.278541799983941,
+  "cached_summary_p95_seconds": 1.01746735998895,
+  "load_plus_summary_seconds": 3.296009159972891,
+  "batch_view_p95_seconds": 0.00027117003919556736,
+  "targets": {
+    "cached_summary_under_2s": true,
+    "batch_view_under_500ms": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "fixture": "synthetic",
+  "installed_wheel_import": "C:\\Users\\V-DEEG~1\\AppData\\Local\\Temp\\reclaim-wheel-preview-7tont12u\\installed\\inbox_reclaimer\\__init__.py",
+  "wheel_preview_messages": 3,
+  "wheel_cli_exit_code": 0,
+  "packaged_css_loaded": true,
+  "no_sensitive_state_packaged": true,
+  "hashes": {
+    "inbox_reclaimer-0.1.0-py3-none-any.whl": "a81e044feb6e98ee50fa1e758bb9b1c2a94404799508a00f6589845d2d19696b",
+    "inbox_reclaimer-0.1.0.tar.gz": "8d8697cfd3e03c761e66a5aaadd3715cec3235f1a3d9d93abcf7322a31e748c7"
+  }
+}

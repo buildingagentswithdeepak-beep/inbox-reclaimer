@@ -1,0 +1,27 @@
+{
+  "seconds": 5,
+  "sampleRate": 48000,
+  "channels": 2,
+  "bitsPerSample": 24,
+  "synthesis": "Original short CTA cue, synthesized locally with Node built-ins only.",
+  "bpm": 112,
+  "rmsTargetDbfs": -24.8,
+  "measurements": {
+    "rms": 0.05754399371702937,
+    "rmsDbfs": -24.800000002518694,
+    "samplePeakDbfs": -14.826519807484924,
+    "peak": 0.18141534106914295,
+    "clipped": 0
+  },
+  "sha256": "7682418dc44eb5c3ce79f343f978aecaed513c97687de41144eb83c08a652e23",
+  "endpoints": {
+    "first": [
+      0,
+      0
+    ],
+    "last": [
+      0,
+      0
+    ]
+  }
+}

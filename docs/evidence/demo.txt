@@ -1,0 +1,193 @@
+INBOX RECLAIMER | Gate A · Read-only analysis · No mail changed
+Account: 19887550a9b9fd43f406c16ca2ca026a9afa0fa64fa32c757fa5e261c61dc32f | 
+Generation: 
+81259e2dc80a452ca97096bf05f924eb
+Scan coverage
+  complete: True
+  started_at: 2026-09-26T10:16:01.834211+00:00
+  completed_at: 2026-09-26T10:16:01.940578+00:00
+  cursor: fake-5cab6bea0a554cd38ca5b4495e13589f9a57fddae601ce8ec7acb0f60ac29da1
+  unresolved_count: 0
+  unique_messages: 37
+  duplicate_records: 0
+  cutoff: 2026-09-01T12:00:00+00:00
+  timezone: UTC
+Unique messages: 37 | Estimated message size: 616.60 MB (not Google quota)
+Unknown sizes: 0; unknown dates: 0; unknown senders: 1
+                       Top 20 senders by count                        
+┌─────────────────────────┬──────────┬────────────────┬──────────────┐
+│ Group / sender          │ Messages │ Estimated size │ Size unknown │
+├─────────────────────────┼──────────┼────────────────┼──────────────┤
+│ newsletter@example.test │       30 │      465.00 MB │            0 │
+│ receiver@example.test   │        2 │       31.00 MB │            0 │
+│ archive@example.test    │        1 │       60.00 MB │            0 │
+│ partner@example.test    │        1 │       40.00 MB │            0 │
+│ offers@example.test     │        1 │       20.00 MB │            0 │
+│ community@example.test  │        1 │      500.00 kB │            0 │
+│ Unknown sender          │        1 │      100.00 kB │            0 │
+└─────────────────────────┴──────────┴────────────────┴──────────────┘
+                   Top 20 senders by estimated size                   
+┌─────────────────────────┬──────────┬────────────────┬──────────────┐
+│ Group / sender          │ Messages │ Estimated size │ Size unknown │
+├─────────────────────────┼──────────┼────────────────┼──────────────┤
+│ newsletter@example.test │       30 │      465.00 MB │            0 │
+│ archive@example.test    │        1 │       60.00 MB │            0 │
+│ partner@example.test    │        1 │       40.00 MB │            0 │
+│ receiver@example.test   │        2 │       31.00 MB │            0 │
+│ offers@example.test     │        1 │       20.00 MB │            0 │
+│ community@example.test  │        1 │      500.00 kB │            0 │
+│ Unknown sender          │        1 │      100.00 kB │            0 │
+└─────────────────────────┴──────────┴────────────────┴──────────────┘
+              Category labels (overlapping; explicit union)               
+┌─────────────────────────────┬──────────┬────────────────┬──────────────┐
+│ Group / sender              │ Messages │ Estimated size │ Size unknown │
+├─────────────────────────────┼──────────┼────────────────┼──────────────┤
+│ Promotions                  │       30 │      465.00 MB │            0 │
+│ Social                      │        1 │      500.00 kB │            0 │
+│ Updates                     │        2 │        7.00 MB │            0 │
+│ Forums                      │        1 │      100.00 kB │            0 │
+│ Other / unclassified        │        5 │      151.00 MB │            0 │
+│ Category union (unique)     │       32 │      465.60 MB │            0 │
+│ Multiple category labels    │        2 │        7.00 MB │            0 │
+│ Trash                       │        1 │       60.00 MB │            0 │
+│ Spam                        │        1 │       20.00 MB │            0 │
+│ Trash / Spam union (unique) │        2 │       80.00 MB │            0 │
+└─────────────────────────────┴──────────┴────────────────┴──────────────┘
+            Cumulative size cohorts (overlapping)            
+┌────────────────┬──────────┬────────────────┬──────────────┐
+│ Group / sender │ Messages │ Estimated size │ Size unknown │
+├────────────────┼──────────┼────────────────┼──────────────┤
+│ > 5 MB         │       29 │      600.00 MB │            0 │
+│ > 10 MB        │       24 │      560.00 MB │            0 │
+│ > 25 MB        │        8 │      270.00 MB │            0 │
+└────────────────┴──────────┴────────────────┴──────────────┘
+              Cumulative age cohorts (overlapping)               
+┌────────────────────┬──────────┬────────────────┬──────────────┐
+│ Group / sender     │ Messages │ Estimated size │ Size unknown │
+├────────────────────┼──────────┼────────────────┼──────────────┤
+│ Older than 1 year  │       35 │      616.00 MB │            0 │
+│ Older than 2 years │       35 │      616.00 MB │            0 │
+│ Older than 5 years │       35 │      616.00 MB │            0 │
+└────────────────────┴──────────┴────────────────┴──────────────┘
+               Disjoint size bands (additive)                
+┌────────────────┬──────────┬────────────────┬──────────────┐
+│ Group / sender │ Messages │ Estimated size │ Size unknown │
+├────────────────┼──────────┼────────────────┼──────────────┤
+│ 0–5 MB         │        8 │       16.60 MB │            0 │
+│ > 5–10 MB      │        5 │       40.00 MB │            0 │
+│ > 10–25 MB     │       16 │      290.00 MB │            0 │
+│ > 25 MB        │        8 │      270.00 MB │            0 │
+│ Unknown        │        0 │            0 B │            0 │
+└────────────────┴──────────┴────────────────┴──────────────┘
+                          Disjoint age bands (additive)                        
+┌────────────────────────────────────┬──────────┬────────────────┬─────────────
+─┐
+│ Group / sender                     │ Messages │ Estimated size │ Size unknown
+│
+├────────────────────────────────────┼──────────┼────────────────┼─────────────
+─┤
+│ Within 1 year (incl. future dates) │        2 │      600.00 kB │            0
+│
+│ > 1–2 years                        │        0 │            0 B │            0
+│
+│ > 2–5 years                        │        0 │            0 B │            0
+│
+│ Older than 5 years                 │       35 │      616.00 MB │            0
+│
+│ Unknown                            │        0 │            0 B │            0
+│
+└────────────────────────────────────┴──────────┴────────────────┴─────────────
+─┘
+Newsletter candidates: 30 | Estimated size: 465.00 MB | Not disposable by 
+default
+Attachment comparison: ADVISORY ONLY
+Filename and decoded size indicate possible matches only. Equal SHA-256 
+confirms equal attachment content, not 
+duplicate messages. Bodies and other attachments may differ. Deleting a message
+removes its body and all 
+attachments. Advisory only; no deletion batches or reclaimable-byte totals are 
+produced. MIME traversal is 
+limited to 20 nesting levels; metadata observations are not a complete content 
+comparison.
+possible_matches: 1 groups
+  synthetic-newsletter.pdf | 2.00 MB decoded per part
+    synthetic-newsletter.pdf | message newsletter-005 part 1
+    synthetic-newsletter.pdf | message newsletter-006 part 1
+    synthetic-newsletter.pdf | message newsletter-007 part 1
+    synthetic-newsletter.pdf | message newsletter-008 part 1
+    synthetic-newsletter.pdf | message newsletter-009 part 1
+    synthetic-newsletter.pdf | message newsletter-010 part 1
+    synthetic-newsletter.pdf | message newsletter-011 part 1
+    synthetic-newsletter.pdf | message newsletter-012 part 1
+    synthetic-newsletter.pdf | message newsletter-013 part 1
+    synthetic-newsletter.pdf | message newsletter-014 part 1
+    synthetic-newsletter.pdf | message newsletter-015 part 1
+    synthetic-newsletter.pdf | message newsletter-016 part 1
+    synthetic-newsletter.pdf | message newsletter-017 part 1
+    synthetic-newsletter.pdf | message newsletter-018 part 1
+    synthetic-newsletter.pdf | message newsletter-019 part 1
+    synthetic-newsletter.pdf | message newsletter-020 part 1
+    synthetic-newsletter.pdf | message newsletter-021 part 1
+    synthetic-newsletter.pdf | message newsletter-022 part 1
+    synthetic-newsletter.pdf | message newsletter-023 part 1
+    synthetic-newsletter.pdf | message newsletter-024 part 1
+    synthetic-newsletter.pdf | message newsletter-025 part 1
+    synthetic-newsletter.pdf | message newsletter-026 part 1
+    synthetic-newsletter.pdf | message newsletter-027 part 1
+    synthetic-newsletter.pdf | message newsletter-028 part 1
+    synthetic-newsletter.pdf | message newsletter-029 part 1
+equal_content: 0 groups
+Cautions
+ - Estimated message bytes (Gmail sizeEstimate) are not exact Google storage 
+quota or bytes freed.
+ - Cumulative size and age cohorts overlap: never sum them. Disjoint bands are 
+additive.
+ - Category labels may overlap; category union and overlap are explicit. 
+Other/unclassified is not Primary.
+ - Trash and Spam overlap categories and each other; their union counts unique 
+messages.
+ - Newsletter header presence is a candidate signal, not evidence that mail is 
+disposable.
+ - Enumeration is not a point-in-time mailbox snapshot; this report makes no 
+deletion recommendation.
+ - Malformed or missing metadata is shown as unknown, not silently estimated.
+
+{
+  "account_id": "19887550a9b9fd43f406c16ca2ca026a9afa0fa64fa32c757fa5e261c61dc32f",
+  "plan_id": "11194aa5bd60486fb89177550a522a2e",
+  "revision": 1,
+  "action": "trash",
+  "policy_version": "gate-a-v1",
+  "inventory_generation": "81259e2dc80a452ca97096bf05f924eb",
+  "executable": false,
+  "mutation_enabled": false,
+  "totals": {
+    "unique_messages": 20,
+    "estimated_bytes": 410000000
+  },
+  "skips_by_reason": {
+    "sent_thread_heuristic": 1,
+    "cached_protection": 6,
+    "malformed_metadata": 1,
+    "below_min_batch_bytes": 8
+  },
+  "batches": [
+    {
+      "batch_id": "108939ac9ba29cc8f5e035f9",
+      "kind": "SIZE_AGE",
+      "message_count": 20,
+      "estimated_bytes": 410000000,
+      "membership_digest": "b697e92719d429db1851ab33820500be7f08e0c2a0820329fef5ef890b4fac2f"
+    }
+  ],
+  "notice": "Proposal only. SENT-thread evidence is a conservative heuristic, not proof of no reply."
+}
+
+Synthetic demo only. No Google credentials loaded and no mailbox accessed.
+Report: C:\Users\v-deegarg\inbox-reclaimer\.demo-profile\inbox_reclaimer\reports\report-demo.html
+Profile: C:\Users\v-deegarg\inbox-reclaimer\.demo-profile
+Account: receiver@example.test
+Gate A · read-only · SYNTHETIC DEMO
+Profile: C:\Users\v-deegarg\inbox-reclaimer\.demo-profile
+Account: receiver@example.test
+Gate A · read-only · SYNTHETIC DEMO

@@ -1,0 +1,10 @@
+{"phase": "pause", "case": "approved", "state": {"reference": "opaque-batch", "completion_count": 0}, "passed": true}
+{"phase": "resume", "case": "approved", "state": {"reference": "opaque-batch", "decision": "approved", "completion_count": 1}, "passed": true}
+{"phase": "pause", "case": "rejected", "state": {"reference": "opaque-batch", "completion_count": 0}, "passed": true}
+{"phase": "resume", "case": "rejected", "state": {"reference": "opaque-batch", "decision": "rejected", "completion_count": 1}, "passed": true}
+{"phase": "pause", "case": "list", "state": {"reference": "opaque-batch", "completion_count": 0}, "passed": true}
+{"phase": "resume", "case": "list", "state": {"reference": "opaque-batch", "decision": "approved", "completion_count": 1}, "passed": true}
+{"phase": "pause", "case": "invalid", "state": {"reference": "opaque-batch", "completion_count": 0}, "passed": true}
+{"phase": "resume", "case": "invalid", "state": {"reference": "opaque-batch", "decision": "invalid", "completion_count": 1}, "passed": true}
+{"phase": "pause", "case": "expired", "state": {"reference": "opaque-batch", "completion_count": 0}, "passed": true}
+{"phase": "resume", "case": "expired", "state": {"reference": "opaque-batch", "decision": "invalid", "completion_count": 1}, "passed": true}

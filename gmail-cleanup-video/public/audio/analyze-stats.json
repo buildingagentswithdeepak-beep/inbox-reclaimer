@@ -1,0 +1,323 @@
+{
+  "seed": "0x414e4c31",
+  "sampleRate": 48000,
+  "channels": 2,
+  "bitsPerSample": 24,
+  "encoding": "RIFF WAVE PCM signed 24-bit little-endian",
+  "durationSeconds": 15,
+  "frames": 720000,
+  "commonGain": 1.0833933359982515,
+  "pulseTimesSeconds": [
+    0.8,
+    3.2,
+    5.6,
+    8,
+    10.4,
+    12.8
+  ],
+  "fadeInSeconds": 0.25,
+  "fadeOutSeconds": 0.5,
+  "fadeOutStartSeconds": 14.5,
+  "targetMixRmsDbfs": -25,
+  "maximumSamplePeakDbfs": -6,
+  "duck": {
+    "start": 1,
+    "end": 10.5,
+    "rampInStart": 0.65,
+    "rampOutEnd": 11.3,
+    "gainDb": -3,
+    "measuredMusicAttenuationDb": -3.0000000000000493,
+    "sfxDucked": false,
+    "measurement": "1-10.5s energy ratio against the identical faded bed without duck, before PCM quantization."
+  },
+  "accents": [
+    {
+      "label": "Intro settles",
+      "timeSeconds": 0.5,
+      "onsetFrame": 24000,
+      "durationSeconds": 0.26,
+      "rmsDbfs": -47.914636023800234,
+      "samplePeakDbfs": -32.12494158199289
+    },
+    {
+      "label": "Output cut",
+      "timeSeconds": 4,
+      "onsetFrame": 192000,
+      "durationSeconds": 0.24,
+      "rmsDbfs": -48.88050203168465,
+      "samplePeakDbfs": -32.19168927897758
+    },
+    {
+      "label": "Category transition",
+      "timeSeconds": 10.5,
+      "onsetFrame": 504000,
+      "durationSeconds": 0.34,
+      "rmsDbfs": -46.98745137558693,
+      "samplePeakDbfs": -31.69483131693299
+    },
+    {
+      "label": "Category highlight 1",
+      "timeSeconds": 11.3,
+      "onsetFrame": 542400,
+      "durationSeconds": 0.22,
+      "rmsDbfs": -48.35368635371245,
+      "samplePeakDbfs": -32.79231441818166
+    },
+    {
+      "label": "Category highlight 2",
+      "timeSeconds": 11.7,
+      "onsetFrame": 561600,
+      "durationSeconds": 0.22,
+      "rmsDbfs": -48.762441872892126,
+      "samplePeakDbfs": -34.773498924182825
+    },
+    {
+      "label": "Category highlight 3",
+      "timeSeconds": 12.1,
+      "onsetFrame": 580800,
+      "durationSeconds": 0.22,
+      "rmsDbfs": -48.14959412544394,
+      "samplePeakDbfs": -34.000504132944336
+    },
+    {
+      "label": "Category highlight 4",
+      "timeSeconds": 12.5,
+      "onsetFrame": 600000,
+      "durationSeconds": 0.22,
+      "rmsDbfs": -48.2817344924205,
+      "samplePeakDbfs": -33.02531405609281
+    }
+  ],
+  "measurement": "Decoded PCM; unweighted stereo sample RMS and sample peak, not LUFS or true peak. Full scale = 8388607; null means silence.",
+  "repeatability": "node scripts/generate-analyze-audio.mjs --verify regenerates in memory, compares every WAV and JSON byte, and decodes the on-disk WAVs; read-only. Same Node runtime/platform is the bit-identical reference.",
+  "files": {
+    "analyze-music.wav": {
+      "bytes": 4320044,
+      "frames": 720000,
+      "durationSeconds": 15,
+      "rmsDbfs": -25.002781897897766,
+      "samplePeakDbfs": -12.827795623233804,
+      "rms": 0.056216124856897906,
+      "peak": 0.2283548388904141,
+      "clippedSamples": 0,
+      "dcOffset": -4.087264826381555e-8,
+      "sections": {
+        "0-0.6": {
+          "rmsDbfs": -23.411538394059672,
+          "samplePeakDbfs": -13.344960256667191,
+          "rms": 0.06751854584980596,
+          "peak": 0.215155269522103,
+          "clippedSamples": 0,
+          "dcOffset": 0.00006709018901071975
+        },
+        "0.8-1": {
+          "rmsDbfs": -24.13099942298387,
+          "samplePeakDbfs": -14.364220470735745,
+          "rms": 0.062151273062867156,
+          "peak": 0.1913326014676811,
+          "clippedSamples": 0,
+          "dcOffset": -0.00032004940103086714
+        },
+        "1-4": {
+          "rmsDbfs": -25.449688816776693,
+          "samplePeakDbfs": -15.768204600286333,
+          "rms": 0.05339684033397356,
+          "peak": 0.16277577433297327,
+          "clippedSamples": 0,
+          "dcOffset": 0.0000235892177429848
+        },
+        "4-10.5": {
+          "rmsDbfs": -26.37976498447611,
+          "samplePeakDbfs": -17.074259444158013,
+          "rms": 0.04797464290379775,
+          "peak": 0.1400512623848036,
+          "clippedSamples": 0,
+          "dcOffset": -0.0000062586919056716705
+        },
+        "10.5-11.5": {
+          "rmsDbfs": -24.292531506719797,
+          "samplePeakDbfs": -14.408955119127969,
+          "rms": 0.06100612280929638,
+          "peak": 0.1903497207581664,
+          "clippedSamples": 0,
+          "dcOffset": 0.000014370982075255424
+        },
+        "11.5-14": {
+          "rmsDbfs": -23.126874950069674,
+          "samplePeakDbfs": -12.827795623233804,
+          "rms": 0.06976799662874478,
+          "peak": 0.2283548388904141,
+          "clippedSamples": 0,
+          "dcOffset": 1.9337735891806754e-7
+        },
+        "14-15": {
+          "rmsDbfs": -24.702260649986624,
+          "samplePeakDbfs": -14.227423524318063,
+          "rms": 0.05819517352567715,
+          "peak": 0.19436981610892012,
+          "clippedSamples": 0,
+          "dcOffset": -0.000024626085365944027
+        }
+      },
+      "sha256": "587591d78d297a20764586e464dae333463d8e7fd543b452634bd3ab2360fcac"
+    },
+    "analyze-sfx.wav": {
+      "bytes": 4320044,
+      "frames": 720000,
+      "durationSeconds": 15,
+      "rmsDbfs": -57.465387750465666,
+      "samplePeakDbfs": -31.69483131693299,
+      "rms": 0.0013388459601325717,
+      "peak": 0.026017072918066136,
+      "clippedSamples": 0,
+      "dcOffset": -2.2522727021966877e-7,
+      "sections": {
+        "0-0.6": {
+          "rmsDbfs": -52.71467473174775,
+          "samplePeakDbfs": -32.12494158199289,
+          "rms": 0.0023134827382302633,
+          "peak": 0.024760130019203425,
+          "clippedSamples": 0,
+          "dcOffset": 0.000012940316865349444
+        },
+        "0.8-1": {
+          "rmsDbfs": null,
+          "samplePeakDbfs": null,
+          "rms": 0,
+          "peak": 0,
+          "clippedSamples": 0,
+          "dcOffset": 0
+        },
+        "1-4": {
+          "rmsDbfs": null,
+          "samplePeakDbfs": null,
+          "rms": 0,
+          "peak": 0,
+          "clippedSamples": 0,
+          "dcOffset": 0
+        },
+        "4-10.5": {
+          "rmsDbfs": -63.20752318099714,
+          "samplePeakDbfs": -32.19168927897758,
+          "rms": 0.0006912320091019992,
+          "peak": 0.024570587226222424,
+          "clippedSamples": 0,
+          "dcOffset": -8.711888514309976e-7
+        },
+        "10.5-11.5": {
+          "rmsDbfs": -49.9924213482622,
+          "samplePeakDbfs": -31.69483131693299,
+          "rms": 0.0031650380290539903,
+          "peak": 0.026017072918066136,
+          "clippedSamples": 0,
+          "dcOffset": 0.000002548946992430655
+        },
+        "11.5-14": {
+          "rmsDbfs": -54.17394390458617,
+          "samplePeakDbfs": -33.02531405609281,
+          "rms": 0.0019557025623517677,
+          "peak": 0.022322061338670412,
+          "clippedSamples": 0,
+          "dcOffset": -0.0000016473439312787688
+        },
+        "14-15": {
+          "rmsDbfs": null,
+          "samplePeakDbfs": null,
+          "rms": 0,
+          "peak": 0,
+          "clippedSamples": 0,
+          "dcOffset": 0
+        }
+      },
+      "sha256": "8443dd673f9c08a3ac8bfe0d2694d14f792b237fb4a3d26227a3778c33553ead"
+    },
+    "analyze-mix.wav": {
+      "bytes": 4320044,
+      "frames": 720000,
+      "durationSeconds": 15,
+      "rmsDbfs": -25.000000000186887,
+      "samplePeakDbfs": -12.818817733882579,
+      "rms": 0.05623413251782496,
+      "peak": 0.2285909925211659,
+      "clippedSamples": 0,
+      "dcOffset": -2.660999184836882e-7,
+      "sections": {
+        "0-0.6": {
+          "rmsDbfs": -23.4134952244694,
+          "samplePeakDbfs": -13.303814576571803,
+          "rms": 0.06750333641616771,
+          "peak": 0.21617689325534026,
+          "clippedSamples": 0,
+          "dcOffset": 0.00008003050587607006
+        },
+        "0.8-1": {
+          "rmsDbfs": -24.13099942298387,
+          "samplePeakDbfs": -14.364220470735745,
+          "rms": 0.062151273062867156,
+          "peak": 0.1913326014676811,
+          "clippedSamples": 0,
+          "dcOffset": -0.00032004940103086714
+        },
+        "1-4": {
+          "rmsDbfs": -25.449688816776693,
+          "samplePeakDbfs": -15.768204600286333,
+          "rms": 0.05339684033397356,
+          "peak": 0.16277577433297327,
+          "clippedSamples": 0,
+          "dcOffset": 0.0000235892177429848
+        },
+        "4-10.5": {
+          "rmsDbfs": -26.37894344372362,
+          "samplePeakDbfs": -17.074259444158013,
+          "rms": 0.047979180722011676,
+          "peak": 0.1400512623848036,
+          "clippedSamples": 0,
+          "dcOffset": -0.000007129880757103108
+        },
+        "10.5-11.5": {
+          "rmsDbfs": -24.275200139848504,
+          "samplePeakDbfs": -14.223908310984317,
+          "rms": 0.06112797274081588,
+          "peak": 0.1944484942494028,
+          "clippedSamples": 0,
+          "dcOffset": 0.000016919929067686802
+        },
+        "11.5-14": {
+          "rmsDbfs": -23.120562314690236,
+          "samplePeakDbfs": -12.827795623233804,
+          "rms": 0.06981872027626769,
+          "peak": 0.2283548388904141,
+          "clippedSamples": 0,
+          "dcOffset": -0.0000014539665723604916
+        },
+        "14-15": {
+          "rmsDbfs": -24.702260649986624,
+          "samplePeakDbfs": -14.227423524318063,
+          "rms": 0.05819517352567715,
+          "peak": 0.19436981610892012,
+          "clippedSamples": 0,
+          "dcOffset": -0.000024626085365944027
+        }
+      },
+      "sha256": "7eaf2c63332a8df2f2c8395db614b38d7489b110193924bf055d4d76570313ca"
+    }
+  },
+  "checks": {
+    "exactDurationAndFormat": true,
+    "exactStemSum": true,
+    "stemSumResidualPcm": 0,
+    "interleavedSamplesCompared": 1440000,
+    "zeroEndpoints": true,
+    "noClipping": true,
+    "sevenScheduledAccentsOnly": true,
+    "musicDuck3Db": true,
+    "mixRmsTarget": true,
+    "allSamplePeaksBelowMinus6": true,
+    "continuity": {
+      "windowSeconds": 0.1,
+      "firstWindowStart": 0.25,
+      "lastWindowEnd": 14.45,
+      "minimumWindowRmsDbfs": -26.69775687258912
+    }
+  }
+}

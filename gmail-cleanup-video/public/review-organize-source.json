@@ -1,0 +1,204 @@
+{
+  "fps": 30,
+  "planId": "c147c7a16a1b407b8bb1b9db1e4d487b",
+  "sender": "noreply@medium.com",
+  "result": {
+    "status": "sender_run_finished",
+    "confirmed": 20,
+    "unknown": 0,
+    "skipped": 0,
+    "dry_run": false,
+    "failed": null,
+    "failedNote": "No separate failed counter shown"
+  },
+  "timeline": [
+    {
+      "frames": [
+        0,
+        420
+      ],
+      "seconds": [
+        0,
+        14
+      ],
+      "asset": "review-organize-approval.mp4",
+      "sourceSeconds": [
+        48,
+        62
+      ],
+      "rate": 1,
+      "label": "Recorded native approval; privacy redactions"
+    },
+    {
+      "frames": [
+        420,
+        450
+      ],
+      "seconds": [
+        14,
+        15
+      ],
+      "asset": null,
+      "label": "Later: run result",
+      "editorial": true
+    },
+    {
+      "frames": [
+        450,
+        720
+      ],
+      "seconds": [
+        15,
+        24
+      ],
+      "asset": "review-organize-result.png",
+      "sourceSeconds": 81,
+      "label": "Later: run result / held for readability"
+    },
+    {
+      "frames": [
+        720,
+        840
+      ],
+      "seconds": [
+        24,
+        28
+      ],
+      "asset": "review-organize-gmail.mp4",
+      "sourceSeconds": [
+        86,
+        90
+      ],
+      "rate": 1,
+      "label": "Later: Gmail Trash / visual check only"
+    },
+    {
+      "frames": [
+        840,
+        900
+      ],
+      "seconds": [
+        28,
+        30
+      ],
+      "asset": "review-organize-gmail-hold.png",
+      "label": "Gmail Trash / held frame; visual check only"
+    }
+  ],
+  "privacy": "Email/subject-visible revision supersedes the previous mask version. Approval account email, typed email, and subjects are visible; Gmail has no masks. Message IDs, membership digest, result account hash and approval ID, and local paths remain masked. Broad closing/terminal masks can incidentally cover emails or subjects.",
+  "gmailEvidence": "Original senders, subjects, snippets, dates, in:trash, and Gmail controls are visible with no masks. This later visual check is not independent proof of all 20 exact message IDs or a before/after delta.",
+  "discontinuities": "Approval recorded at desktop 22:04; result at 22:08; Gmail at 22:10. Source contains recording cuts; not an uninterrupted run.",
+  "gmailTimingDecision": "Explicit requested four-second asset (86..90) followed by two-second hold, rather than earlier 86..90.5 proposal.",
+  "assets": [
+    {
+      "file": "public/review-organize-approval.mp4",
+      "width": 1920,
+      "height": 1008,
+      "frames": 420,
+      "duration": 14,
+      "sha256": "5188523f0561815a66b4067bd989e33be3542bdcffb82da48e630a3963bf95ca",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1008
+      }
+    },
+    {
+      "file": "public/review-organize-gmail.mp4",
+      "width": 1484,
+      "height": 798,
+      "frames": 120,
+      "duration": 4,
+      "sha256": "812f7e7e7a31b9ecff84b525dc7476311a4249efd8cc258cbab8fb1d3b3377f7",
+      "crop": {
+        "x": 340,
+        "y": 180,
+        "width": 1484,
+        "height": 798
+      }
+    },
+    {
+      "file": "public/review-organize-result.png",
+      "width": 980,
+      "height": 440,
+      "sourcePts": 81.015016,
+      "crop": {
+        "x": 400,
+        "y": 472,
+        "width": 980,
+        "height": 440
+      },
+      "masks": [
+        [
+          200,
+          96,
+          755,
+          29
+        ],
+        [
+          214,
+          151,
+          755,
+          27
+        ],
+        [
+          212,
+          178,
+          500,
+          27
+        ]
+      ],
+      "sha256": "b7dcce110a336f0859d1be0e9636790906e454b8ad84af92790b864da4566f2d"
+    },
+    {
+      "file": "public/review-organize-gmail-hold.png",
+      "sourcePts": 89.958023,
+      "fromDecodedVideoFrame": 119,
+      "width": 1484,
+      "height": 798,
+      "sha256": "1c0406341a083f720275b17c56f404efacd5ff19348aef9d7680390beeb93ade"
+    }
+  ],
+  "approvalEvents": [
+    {
+      "event": "Last frame before button gains focus indication",
+      "frame": 380,
+      "sceneFrame": 380,
+      "sceneSeconds": 12.666666666666666,
+      "sourceFrame": 1838,
+      "sourcePts": 60.654016
+    },
+    {
+      "event": "First recorded confirmation focus indication; visual click evidence, not input telemetry",
+      "frame": 381,
+      "sceneFrame": 381,
+      "sceneSeconds": 12.7,
+      "sourceFrame": 1839,
+      "sourcePts": 60.687017
+    },
+    {
+      "event": "First visible native closing animation",
+      "frame": 384,
+      "sceneFrame": 384,
+      "sceneSeconds": 12.8,
+      "sourceFrame": 1842,
+      "sourcePts": 60.786021
+    },
+    {
+      "event": "First fully dismissed native window",
+      "frame": 390,
+      "sceneFrame": 390,
+      "sceneSeconds": 13,
+      "sourceFrame": 1848,
+      "sourcePts": 60.984027
+    }
+  ],
+  "gmailHold": {
+    "sourcePts": 89.958023,
+    "fromDecodedVideoFrame": 119,
+    "width": 1484,
+    "height": 798,
+    "sha256": "1c0406341a083f720275b17c56f404efacd5ff19348aef9d7680390beeb93ade"
+  }
+}
